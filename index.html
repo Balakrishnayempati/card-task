@@ -41,6 +41,11 @@
             margin-top: 10px;
             font-size: 18px;
             font-weight: bold;
+        #hypertext {
+            display: none;
+        }
+        #html:hover + #hypertext {
+            display: block;
         }
     </style>
 </head>
@@ -51,9 +56,9 @@
     <div class="card">
         <div>
             <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="HTML">
-            <span class="html">HTML
-            <p>Hypertest markup language </p>
-            </span>
+            <span id="html">HTML</span>
+            <p id="hypertext">Hypertest markup language </p>
+           
         </div>
 
         <div>
